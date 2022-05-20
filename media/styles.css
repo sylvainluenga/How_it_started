@@ -1,0 +1,95 @@
+.navBar {
+  height: 48px;
+  background-color: #4f4d53;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 60vh;
+  background: #e8be02;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./media/img_hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.users {
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.users img {
+  margin-top: -10%;
+  z-index: 1000;
+}
+.howItStarted {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.howItStarted div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: Roboto Black;
+  color: #4f4d53;
+  font-weight: 900;
+  font-size: 100px;
+}
+h2 {
+  font-family: Roboto Black;
+  color: #e8be02;
+  font-weight: 900;
+  font-size: 64px;
+}
+h3 {
+  font-family: Roboto Black;
+  color: #e8be02;
+  font-weight: 900;
+  font-size: 20px;
+}
+h4 {
+  font-family: Roboto Black;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+}
+p {
+  font-family: Roboto Black;
+  color: #4f4d53;
+  font-weight: 400;
+  font-size: 20px;
+}
+.yellowBand {
+  height: 12px;
+  background: #e8be02;
+}
+.footer {
+  height: 320px;
+  background: #4f4d53;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
